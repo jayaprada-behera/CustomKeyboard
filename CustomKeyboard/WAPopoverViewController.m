@@ -36,49 +36,6 @@
     
     digitArray = [[NSMutableArray alloc]init];
      buttonText= nil;
-/*
-     
-    UIView *myButtonsView = [[UIView alloc] initWithFrame:self.view.bounds];
-    [self.view addSubview:myButtonsView];
-
-    NSMutableArray *lifeAreaCells = [NSMutableArray arrayWithCapacity:13];
-   NSArray *buttonTextArray = [NSArray arrayWithObjects:
-                         @"1",
-                         @"2",
-                         @"3",
-                         @"4",
-                         @"5",
-                         @"6",
-                         @"7",
-                         @"8",
-                         @"9",
-                         @".",
-                         @"0",
-                         @"<=",
-                         @"Del",
-                         nil];
-
-    for (int i=0; i<13; i++) {
-        UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-        [button setTitle:buttonTextArray[i] forState:UIControlStateNormal];
-        [button setTitleColor:[UIColor darkGrayColor] forState:UIControlStateNormal];
-        [button setTitleColor:[UIColor colorWithRed:72/255.f green:118/255.f blue:255/255.f alpha:1.0f] forState:UIControlStateHighlighted];
-        [button setTitleColor:[UIColor colorWithRed:72/255.f green:118/255.f blue:255/255.f alpha:1.0f] forState:UIControlStateSelected];
-        [button addTarget:self action:@selector(clickedLifeArea:) forControlEvents:UIControlEventTouchUpInside];
-        [lifeAreaCells addObject:button];
-        [myButtonsView addSubview:button];
-    }
-
-    int width = (myButtonsView.bounds.size.width)/3;
-    int height = (myButtonsView.bounds.size.height)/5;
-    
-    for (int i=0; i<13; i++) {
-        int col = i%4;
-        int row = i/5;
-        UIView *button1 = [lifeAreaCells objectAtIndex:i];
-        button1.frame = CGRectMake(width * col, 1+height * row, width, height);
-    }
-    */
     
     // Do any additional setup after loading the view from its nib.
 }
